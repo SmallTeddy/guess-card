@@ -1,6 +1,6 @@
 <template>
-  <div>
-    test
+  <div h-screen flex-center font-size-30 color-gray>
+    游戏字体测试
   </div>
 </template>
 
