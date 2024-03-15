@@ -2,7 +2,7 @@
   <div h-screen flex-center color-gray>
     <div v-for="num in 10" :key="num">
       <div v-for="col in ['黑桃', '红桃', '梅花', '方块']" :key="col">
-        <img :src="getCard(col as CardType, num as CardNum)" alt="黑桃1">
+        <img :src="getCard(col as CardType, num as CardNum)" :alt="col + num">
       </div>
     </div>
   </div>
